@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --linear-color: linear-gradient(322deg, rgba(196,196,196,1) 22%, rgba(246,246,246,1) 85%);
+    font-family: 'Hubballi', cursive;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--linear-color);
+}
+
+button {
+    width: 100%;
+    padding: 1.2em 0;
+    border: 0;
+    border-radius: 0 0 .5em .5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 87, 252);
+}
+
+button:hover {
+    background-color: rgb(61, 112, 252);
+}
+
+button:active {
+    box-shadow: inset rgba(0, 39, 148, 0.74) 3px 0 15px;
+    background-color: rgb(9, 71, 241);
+}
+
+label {
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    position: relative;
+    word-break: break-word;
+    width: 30em;
+    border-radius: .5em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgb(145, 145, 145);
+}
+
+.quiz-container li {
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+.quiz-header {
+    padding: 2em 2em 1em 2em;
+    gap: 2em;
+    max-width: fit-content;
+}
+
+
+
+
+
