@@ -3,4 +3,4 @@
 
 # Demo
 
-https://richlii.github.io/Quiz_App/
+https://richlii.github.io/Quiz-App/
